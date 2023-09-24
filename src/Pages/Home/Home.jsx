@@ -1,9 +1,13 @@
 import React from 'react';
+import Banner from '../../Components/Banner/Banner';
+import BannerImg from '../../assets/banner.png'
 
 const Home = () => {
     return (
         <div>
-            this is home
+         <div>
+            <Banner></Banner>
+         </div>
         </div>
     );
 };
