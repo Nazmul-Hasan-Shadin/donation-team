@@ -5,7 +5,7 @@ const Navbar = () => {
   const links = (
     <>
 <li> <NavLink
-  to="/messages"
+  to="/"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
   }
@@ -14,7 +14,7 @@ const Navbar = () => {
 </NavLink>   </li>
 
 <li><NavLink
-  to="/messages"
+  to="/donation"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? "active" : ""
   }

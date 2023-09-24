@@ -1,0 +1,136 @@
+[
+    {
+       "id":1,
+      "picture": "https://i.ibb.co/gFwP6Y3/Food.png",
+      "title": "Better Food For Everyone",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE3",
+      "text_button_bg": "#E56841",
+      "description": "Delicious and nutritious meals for a healthier lifestyle.",
+      "price": 9.99
+    },
+    {
+      "id":2,
+      "picture": "https://i.ibb.co/W32KPqy/Rectangle-4288.png",
+      "title": "Good Education",
+      "category": " Education",
+      "category_bg": "#F0B7B9",
+      "card_bg": "#FFE3E4",
+      "text_button_bg": "#FF444A",
+      "description": "Delicious and nutritious meals for a healthier lifestyle.",
+      "price": 6.99
+    },
+    {
+       "id":3,
+      "picture": "https://i.ibb.co/CKF3t5M/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F33",
+      "card_bg": "#EBF6E2",
+      "text_button_bg": "#79C23F",
+      "description": "Support education by donating gently used clothing.",
+      "price": 0.99
+    },
+    {
+       "id":4,
+      "picture": "https://i.ibb.co/gFwP6Y3/Food.png",
+      "title": "Better Food For Everyone",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE3",
+      "text_button_bg": "#E56841",
+      "description": "Delicious and nutritious meals for a healthier lifestyle.",
+      "price": 8.99
+    },
+    {"id":5,
+
+      "picture": "https://i.ibb.co/fpN7X3g/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Safe and clean drinking water for children in need.",
+      "price": 18.99
+    },
+    {
+       "id":6,
+      "picture": "https://i.ibb.co/CKF3t5M/Rectangle-4287.png",
+      "title": "Used Clothing Drive",
+      "category": "Clothing",
+      "category_bg": "#79C23F33",
+      "card_bg": "#EBF6E2",
+      "text_button_bg": "#79C23F",
+      "description": "Support education by donating gently used clothing.",
+      "price": 1.99
+    },
+    {
+      "id":7,
+      "picture": "https://i.ibb.co/gFwP6Y3/Food.png",
+      "title": "Better Food For Everyone",
+      "category": "Food",
+      "category_bg": "#FDD2C4",
+      "card_bg": "#FEEAE3",
+      "text_button_bg": "#E56841",
+      "description": "Delicious and nutritious meals for a healthier lifestyle.",
+      "price": 7.99
+    },
+    {
+      "id":8,
+      "picture": "https://i.ibb.co/fpN7X3g/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Safe and clean drinking water for children in need.",
+      "price": 17.99
+    },
+    {
+
+      "id":9,
+      "picture": "https://i.ibb.co/W32KPqy/Rectangle-4288.png",
+      "title": "Good Education",
+      "category": " Education",
+      "category_bg": "#F0B7B9",
+      "card_bg": "#FFE3E4",
+      "text_button_bg": "#FF444A",
+      "description": "Support education by donating gently used clothing.",
+      "price": 2.99
+    },
+    {
+      "id":10,
+      "picture": "https://i.ibb.co/W32KPqy/Rectangle-4288.png",
+      "title": "Good Education",
+      "category": " Education",
+      "category_bg": "#F0B7B9",
+      "card_bg": "#FFE3E4",
+      "text_button_bg": "#FF444A",
+      "description": "Delicious and nutritious meals for a healthier lifestyle.",
+      "price": 6.99
+    },
+    {
+      "id":11,
+      "picture": "https://i.ibb.co/fpN7X3g/Health.png",
+      "title": "Clean Water for Children",
+      "category": "Health",
+      "category_bg": "#0052FF33",
+      "card_bg": "#0052FF26",
+      "text_button_bg": "#0052FF",
+      "description": "Safe and clean drinking water for children in need.",
+      "price": 16.99
+    },
+    {
+      "id":12,
+     "picture": "https://i.ibb.co/CKF3t5M/Rectangle-4287.png",
+     "title": "Used Clothing Drive",
+     "category": "Clothing",
+     "category_bg": "#79C23F33",
+     "card_bg": "#EBF6E2",
+     "text_button_bg": "#79C23F",
+     "description": "Support education by donating gently used clothing.",
+     "price": 0.99
+   }
+  ]
+  
