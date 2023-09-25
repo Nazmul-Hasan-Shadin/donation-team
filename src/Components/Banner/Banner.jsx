@@ -31,14 +31,14 @@ const Banner = ({formCardFilter}) => {
       <header className="my-9">
         <div className="hero min-h-[75vh]">
           <div
-            className="hero-overlay opacity-10 bg-no-repeat bg-cover "
+            className="hero-overlay opacity-10 bg-no-repeat bg-cover w-full -translate-y-28  "
             style={{ backgroundImage: `url(${BannerImg})` }}
           >
-            {" "}
+          
           </div>
-          <div className="hero-content text-center text-neutral-content">
-            <div className="max-w-md w-full space-y-2">
-              <h2 className="font-bold text-3xl text-black mb-9">
+          <div className="hero-content text-center -mt-36  ">
+            <div className="max-w-md w-full space-y-2 ">
+              <h2 className="font-bold text-3xl  text-black mb-9">
                 I Grow By Helping People In Need
               </h2>
              <form onClick={handleFormSubmit}>
