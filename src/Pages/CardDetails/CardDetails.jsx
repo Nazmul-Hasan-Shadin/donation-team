@@ -7,7 +7,7 @@ const CardDetails = () => {
     const {id}= useParams();
     const intId= parseInt(id);
     const singleDonateCardDetails= useLoaderData();
-    console.log(singleDonateCardDetails,id);
+  
     
     useEffect(()=>{
         if (singleDonateCardDetails) {

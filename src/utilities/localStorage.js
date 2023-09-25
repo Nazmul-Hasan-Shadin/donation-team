@@ -21,4 +21,4 @@ saveCardToLs(getExistCart);
 
 
 }
-export { saveToLc}
+export { saveToLc,getStoredCard}
