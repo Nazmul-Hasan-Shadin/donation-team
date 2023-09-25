@@ -1,13 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Card = ({card}) => {
-  const {picture,title,category,category_bg,card_bg,text_button_bg,description,price,id} = card;
+const Card = ({card,filterDonate}) => {
+  const {picture,title,category,category_bg,card_bg,text_button_bg,description,price,id} = card  ;
+
+  console.log(filterDonate);
+
     return (
       <Link to={`/cardDetails/${id}`}>
-          <div  className="card   shadow-xl" style={{backgroundColor: card_bg }}>
+          <div  className="card  h-full  shadow-xl" style={{backgroundColor: card_bg }}>
         <figure className="">
-          <img src={picture} alt="Shoes" className="rounded-xl w-full" />
+          <img src={picture  } alt="Shoes" className="rounded-xl w-full h-56" />
         </figure>
         <div className=" items-center text-start">
 

@@ -26,11 +26,11 @@ const CardDetail = ({donateCard}) => {
             
            
             </figure>
-            <div className='bg-black hero-overlay h-[120px] opacity-20 relative bottom-20 '>
+            <div className='bg-black hero-overlay h-[120px] opacity-20 p-4 relative bottom-20 '>
                 
          
                   </div>
-                  <button  onClick={()=>handleDonate(id)}  className='btn w-36 text-white relative bottom-36 ml-5 bg-[#FF444A] '>Donate $ {price } </button>
+                  <button  style={{backgroundColor:text_button_bg }} onClick={()=>handleDonate(id)}  className='btn w-36 text-white relative bottom-[136px] ml-5 bg-[#FF444A] '>Donate $ {price } </button>
 
 
 

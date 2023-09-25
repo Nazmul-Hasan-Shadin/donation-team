@@ -4,7 +4,7 @@ import logo from '../../assets/Logo.png'
 const Navbar = () => {
   const links = (
     <>
-<li> <NavLink
+<li className="text-xl"> <NavLink
   to="/"
   className={({ isActive, isPending }) =>
     isPending ? "pending" : isActive ? " underline text-red-600  " : ""
@@ -13,7 +13,7 @@ const Navbar = () => {
   Home
 </NavLink>   </li>
 
-<li><NavLink
+<li className="text-xl"><NavLink
   to="/donation"
   className={({ isActive, isPending }) =>
   isPending ? "pending" : isActive ? " underline text-red-600  " : ""
@@ -22,8 +22,8 @@ const Navbar = () => {
   Donation
 </NavLink></li>
 
-<li><NavLink
-  to="/messages"
+<li className="text-xl"><NavLink
+  to="/statistic"
   className={({ isActive, isPending }) =>
   isPending ? "pending" : isActive ? " underline text-red-600  " : ""
   }

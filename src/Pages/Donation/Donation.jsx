@@ -54,7 +54,7 @@ console.log(data , 'all');
     
     return (
       <div className='my-24'>
-           <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
+           <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
             {
             
   showall  ?  (displayDonate.map(donate=>  <DonateCard donate={donate} key={donate.id} ></DonateCard> )):(displayDonate.slice(0,4).map(donate=>  <DonateCard donate={donate} key={donate.id} ></DonateCard> )) 
