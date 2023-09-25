@@ -14,7 +14,7 @@ const CardDetail = ({donateCard}) => {
             icon: 'success',
             title: 'Successfully Donated  ',
             showConfirmButton: false,
-            timer: 1500
+            timer: 1000
           })
     }
     return (

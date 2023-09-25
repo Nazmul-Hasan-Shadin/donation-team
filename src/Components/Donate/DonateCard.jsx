@@ -17,7 +17,7 @@ const DonateCard = ({donate}) => {
                <div className='pl-6'>
                <h2 style={{color: `${text_button_bg}`}} className="card-title font-semibold  pb-7 relative bottom-0">{title}</h2>
           <p> ${price}</p>
-          <button style={{backgroundColor: text_button_bg , color:'white'}} className="btn-sm btn  my-5">See details </button>
+          <button style={{backgroundColor: text_button_bg , color:'white'}} className="btn-md btn  my-5">See details </button>
                </div>
          </div>
         
