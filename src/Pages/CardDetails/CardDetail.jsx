@@ -19,23 +19,25 @@ const CardDetail = ({donateCard}) => {
     }
     return (
      <div className='py-20'>
-                <div className="card w-full max-h-[85vh] bg-base-100 shadow-xl">
-        <figure>
+                <div className="card w-full max-h-[100vh] md:max-h-[35vh] bg-base-100 ">
+        <div className='object-cover  '>
             
-            <img className='w-full ' src={picture} alt="Shoes" />
-            
+            <img className=' w-full md:h-[445px] object-cover ' src={picture} alt="Shoes" />
+             
            
-            </figure>
-            <div className='bg-black hero-overlay h-[120px] opacity-20 p-4 relative bottom-20 '>
-                
+            </div>
+            <button   style={{backgroundColor:text_button_bg, zIndex:7 }} onClick={()=>handleDonate(id)}  className='btn btn-sm md:btn-md w-36  z-10 -translate-y-[40px]  text-white  md:bottom-43 ml-5 bg-[#FF444A] '>Donate $ {price } </button>
+            
+            <div style={{zIndex: 0}} className='bg-black  md:h-[140px] opacity-20 p-5 md:py-8 relative bottom-20 md:bottom-28 '>
+          
          
                   </div>
-                  <button  style={{backgroundColor:text_button_bg }} onClick={()=>handleDonate(id)}  className='btn w-36 text-white relative bottom-40 md:bottom-[136px] ml-5 bg-[#FF444A] '>Donate $ {price } </button>
+            
 
 
 
 
-        <div className=" card-body relative bottom-28">
+        <div className=" card-body  bottom-25 -translate-y-20">
           <h2 className="card-title text-2xl mb-2">
            {title}
           
