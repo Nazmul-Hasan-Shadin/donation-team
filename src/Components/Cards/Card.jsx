@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Card = ({card,filterDonate}) => {
   const {picture,title,category,category_bg,card_bg,text_button_bg,description,price,id} = card  ;
 
-  console.log(filterDonate);
+
 
     return (
       <Link to={`/cardDetails/${id}`}>

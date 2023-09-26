@@ -4,16 +4,17 @@ import logo from '../../assets/Logo.png'
 const Navbar = () => {
   const links = (
     <>
-<li className="text-xl"> <NavLink
+<li className="text-xl">  <NavLink 
   to="/"
   className={({ isActive, isPending }) =>
-    isPending ? "pending" : isActive ? " underline text-red-600  " : ""
+    isPending ? "pending" : isActive ? " underline text-red-600 hover:underline  " : ""
   }
 >
   Home
 </NavLink>   </li>
 
-<li className="text-xl"><NavLink
+<li className="text-xl">
+  <NavLink
   to="/donation"
   className={({ isActive, isPending }) =>
   isPending ? "pending" : isActive ? " underline text-red-600  " : ""
@@ -30,6 +31,7 @@ const Navbar = () => {
 >
   Statistic
 </NavLink></li>
+
     </>
   );
 

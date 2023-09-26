@@ -12,10 +12,15 @@ const Home = () => {
     
     const cards= useLoaderData();
      useEffect(()=>{
-         setDisplayData(cards)
+         setDisplayData(cards);
+         formCardFilter('');
        
      },[cards])
     const formCardFilter = (search)=> {
+        if (search.length === 0) {
+            setFilterDonate(cards);
+            return;
+          }
         
         if (search == 'Health' ) {
             const findDonate= displayData.filter((fileteredData)=> fileteredData.category ==  search );
@@ -40,14 +45,7 @@ const Home = () => {
         }
         else{
              
-            Swal.fire({
-                icon: 'error',
-                title: 'Oops...! ',
-                text: 'No Data Found ',
-               
-              })
-
-          setFilterDonate(displayData);
+       setFilterDonate('')
 
         }
 
@@ -55,8 +53,8 @@ const Home = () => {
  
     return (
         <div>
-             
-            <Banner setDisplayData= {setDisplayData} formCardFilter={formCardFilter}> </Banner>
+            
+            <Banner  formCardFilter={formCardFilter} setDisplayData= {setDisplayData} > </Banner>
             <Cards
               setDisplayData= {setDisplayData}
               filterDonate={filterDonate} 

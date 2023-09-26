@@ -34,10 +34,10 @@ const Statistcs = () => {
 
     return (
         <div className='flex justify-center items-center' >
-            <PieChart width={500} height={500}>
+            <PieChart   width={500} height={500}>
                 <Pie
                     data={data}
-                    cx="50%"
+                    cx="60%"
                     cy="50%"
                   
                     outerRadius={143}
@@ -45,7 +45,7 @@ const Statistcs = () => {
                     dataKey="value"
                 >
                     {data.map((color, index) => (
-                        <Cell fill={color.color} />
+                        <Cell  key={index} fill={color.color} />
                     ))}
                 </Pie>
 
@@ -54,15 +54,15 @@ const Statistcs = () => {
             </PieChart>
 
   
-           <div className='flex justify-center items-center'>
+   
 
-        <div>
+        
         <h2  className='relative right-64 bottom-20 text-2xl text-white '>  {percentageOfDonate}% </h2>
-      <h2  className='relative right-56 top-8  text-2xl text-white '>  {restTotalOutOf100}% </h2>
+      <h2  className='relative right-80 top-12  text-2xl text-white '>  {restTotalOutOf100}% </h2>
 
-        </div>
+      
 
-           </div>
+         
 
 
 

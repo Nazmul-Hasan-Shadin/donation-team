@@ -30,7 +30,7 @@ const CardDetail = ({donateCard}) => {
                 
          
                   </div>
-                  <button  style={{backgroundColor:text_button_bg }} onClick={()=>handleDonate(id)}  className='btn w-36 text-white relative bottom-[136px] ml-5 bg-[#FF444A] '>Donate $ {price } </button>
+                  <button  style={{backgroundColor:text_button_bg }} onClick={()=>handleDonate(id)}  className='btn w-36 text-white relative bottom-40 md:bottom-[136px] ml-5 bg-[#FF444A] '>Donate $ {price } </button>
 
 
 

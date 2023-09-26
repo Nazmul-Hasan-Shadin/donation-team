@@ -11,17 +11,13 @@ const Donation = () => {
 
     const  data = useLoaderData();
  
-console.log(data , 'all');
+
     
     useEffect(()=>{
         const storedDonationId= getStoredCard();
       
          if (data.length) {
-          //   const mathcedDonation= data.filter(donateId=> storedDonationId.includes(donateId.id))
-          //   console.log(mathcedDonation);
-          //   console.log(mathcedDonation,'matcheddonaaion');
-          //  setDonate(mathcedDonation);
-          //  setDisplayDonate(mathcedDonation);
+
 
           const totalDonateCard= [];
      
