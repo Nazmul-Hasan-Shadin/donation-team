@@ -33,9 +33,7 @@ const Statistcs = () => {
     0
   );
   const percentageOfDonate = (
-    (totalDonatePrice / allDonateCardPrice) *
-    100
-  ).toFixed(2);
+    (totalDonatePrice / allDonateCardPrice) *100).toFixed();
   const restTotalOutOf100 = (allDonateCardPrice - percentageOfDonate).toFixed(
     2
   );
@@ -54,54 +52,45 @@ const Statistcs = () => {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center">
-      <div className="">
+    <div>
+    <div className='flex justify-center items-center' >
         <PieChart width={500} height={500}>
-          <Pie
-            data={data}
-            cx="60%"
-            cy="50%"
-            outerRadius={143}
-            fill="#8884d8"
-            dataKey="value"
-          >
-            {
-            
-            data.map((color, index) => (
-              <Cell key={index} fill={color.color} />
-            ))
-            
-            }
-          </Pie>
+            <Pie
+                data={data}
+                cx="60%"
+                cy="50%"
 
-          <Tooltip />
+                outerRadius={143}
+                fill="#8884d8"
+                dataKey="value"
+            >
+                {data.map((color, index) => (
+                    <Cell key={index} fill={color.color} />
+                ))}
+            </Pie>
+            <Tooltip />
         </PieChart>
-        <div className="flex ml-40 flex-col md:flex-row justify-center">
-          Total Donate{" "}
-          <progress
-            className="progress progress-success w-56"
-            value="40"
-            max="100"
-          ></progress>
-          Your Donate{" "}
-          <progress
-            className="progress progress-error w-56"
-            value="40"
-            max="100"
-          ></progress>
-        </div>
-      </div>
+    {
+        donataionData ? (  <h2 className='relative right-[12rem] bottom-20 text-2xl text-white '>  {percentageOfDonate}%</h2>): "You Donated 0 $"
+    }
 
-      <h2 className="relative right-64   bottom-[201px] left-[86px] md:left-[-38%] -top-[260px] md:top-2  text-2xl text-white ">
-        {" "}
-        {percentageOfDonate}%{" "}
-      </h2>
-
-      <h2 className="relative right-64   bottom-[201px] left-[86px] md:left-[-48%] -top-[447px] md:top-[-93px]  text-2xl text-red-800  ">
-        {" "}
-        {restTotalOutOf100} %{" "}
-      </h2>
+    {
+        donatedData && (  <h2 className='relative right-80 top-12  text-2xl text-white '>  {restTotalOutOf100}%</h2>)
+    }
+     
     </div>
+    <div className='flex flex-col lg:flex-row justify-center gap-4 items-center'>
+        <span>
+            <h2>Total Donation</h2>
+            <progress className="progress progress-accent w-56" value={restTotalOutOf100} max="100"></progress>
+        </span>
+        <span>
+            <h1>Your Donatin</h1>
+            <progress className="progress progress-error  w-56" value={percentageOfDonate} max="100"></progress>
+        </span>
+
+    </div>
+</div>
   );
 };
 
