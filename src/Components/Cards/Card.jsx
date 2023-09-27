@@ -14,8 +14,8 @@ const Card = ({card,filterDonate}) => {
         </figure>
         <div className=" items-center text-start">
 
-         <div >
-         <div className="card-actions pl-6 ">
+         <div className='' >
+         <div className="card-actions pl-6  ">
             <button style={{backgroundColor:category_bg , color:text_button_bg}} className="btn-sm btn  my-5">{category} </button>
           
           </div>

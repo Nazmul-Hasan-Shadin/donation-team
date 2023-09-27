@@ -17,12 +17,12 @@ const DonateCard = ({donate}) => {
             <button style={{backgroundColor:category_bg , color:text_button_bg}} className="btn-sm btn  my-2">{category} </button>
           
           </div>
-               <div className='pl-6'>
-               <h2 style={{color: `${text_button_bg}`}} className="card-title font-semibold  pb-7 relative bottom-0">{title}</h2>
-          <p  style={{ color: text_button_bg }}  > ${price}</p>
+               <div className='pl-6 '>
+               <h2 style={{color: `${text_button_bg}`}} className="card-title font-semibold  pb-6 md:pb-1 relative bottom-0">{title}</h2>
+          <p className='lg:pt-2' style={{ color: text_button_bg }}  > ${price}</p>
     
 
-     <Link  to= {`/cardDetails/${id}`} >
+     <Link className=''  to= {`/cardDetails/${id}`} >
      <button style={{backgroundColor: text_button_bg , color:'white'}} className="btn-md btn  w-full md:w-32  my-5">See details </button>
      </Link>
                </div>
