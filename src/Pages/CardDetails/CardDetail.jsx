@@ -26,7 +26,7 @@ const CardDetail = ({donateCard}) => {
              
            
             </div>
-            <button   style={{backgroundColor:text_button_bg, zIndex:7 }} onClick={()=>handleDonate(id)}  className='btn lg:relative md:bottom-14 btn-sm md:btn-md w-36  z-10   -translate-y-[40px] md:translate-y-0 text-white  md:bottom-43  ml-5 bg-[#FF444A] '>Donate $ {price } </button>
+            <button   style={{backgroundColor:text_button_bg, zIndex:7 }} onClick={()=>handleDonate(id)}  className='btn lg:relative md:bottom-14 btn-sm md:btn-md w-36  z-10   -translate-y-[40px] md:translate-y-0 text-white  md:bottom-43 md:relative  ml-5 bg-[#FF444A] '>Donate $ {price } </button>
             
             <div style={{zIndex: 0}} className='bg-black  md:h-[140px] opacity-20 p-5 md:py-8 relative bottom-20 md:bottom-28 '>
           
