@@ -32,7 +32,7 @@ const Banner = ({ formCardFilter }) => {
                   ref={searchRef}
                   type="text"
                   placeholder="Search here"
-                  className="input px-16 input-bordered inline mb-2 max-w-xs "
+                  className="input px-7 input-bordered inline mb-2 max-w-xs "
                 />
                 <button type="submit"
                   // onClick={() => formCardFilter(searchRef.current.value)}
