@@ -71,7 +71,7 @@ const Statistcs = () => {
             <Tooltip />
         </PieChart>
     {
-        donataionData ? (  <h2 className='relative right-[12rem] bottom-20 text-2xl text-white '>  {percentageOfDonate}%</h2>): "You Donated 0 $"
+        percentageOfDonate ? (  <h2 className='relative right-[12rem] bottom-20 text-2xl text-white '>  {percentageOfDonate}%</h2>):( "You Donated 0 $")
     }
 
     {
@@ -86,7 +86,7 @@ const Statistcs = () => {
         </span>
         <span>
             <h1>Your Donatin</h1>
-            <progress className="progress progress-error  w-56" value={percentageOfDonate} max="100"></progress>
+            <progress className="progress progress-error" value={percentageOfDonate} max="100"></progress>
         </span>
 
     </div>

@@ -37,9 +37,7 @@ const Donation = () => {
           
          }
 
-         else{
- 
-         }
+  
 
 
     },[data])

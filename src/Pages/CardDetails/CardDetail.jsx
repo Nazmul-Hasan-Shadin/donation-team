@@ -22,7 +22,7 @@ const CardDetail = ({donateCard}) => {
                 <div className="card w-full max-h-[100vh] md:max-h-[35vh] bg-base-100 ">
         <div className='object-cover  '>
             
-            <img className=' w-full md:h-[450px] object-cover ' src={picture} alt="Shoes" />
+            <img className=' w-full md:h-[450px] object-cover rounded-xl ' src={picture} alt="" />
              
            
             </div>
