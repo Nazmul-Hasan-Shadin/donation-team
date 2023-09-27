@@ -23,7 +23,7 @@ const Banner = ({ formCardFilter }) => {
           </div>
           <div className="hero-content text-center">
             <div className="max-w-md w-full space-y-2">
-              <h2 className="font-bold text-3xl text-black mb-9">
+              <h2 className="font-bold text-2xl text-black mb-9">
                 I Grow By Helping People In Need
               </h2>
         
