@@ -7,7 +7,7 @@
   "category_bg": "#0052FF33",
   "card_bg": "#0052FF26",
   "text_button_bg": "#0052FF",
-  "description": "Safe and clean drinking water for children in need.",
+  "description": "Heavy drinking can damage the liver and heart, harm an unborn child, increase the chances of developing breast and some other cancers, contribute to depression and violence, and interfere with relationships.",
   "price": 18.99
 },
 
@@ -19,7 +19,7 @@
       "category_bg": "#F0B7B9",
       "card_bg": "#FFE3E4",
       "text_button_bg": "#FF444A",
-      "description": "Delicious and nutritious meals for a healthier lifestyle.",
+      "description": " Give kids the chance to succeed. A good education is a child's best chance to escape poverty. When you fund a monthly Education Pass, you ensure that kids",
       "price": 6.99
     },
     {
@@ -30,7 +30,7 @@
       "category_bg": "#79C23F33",
       "card_bg": "#EBF6E2",
       "text_button_bg": "#79C23F",
-      "description": "Support education by donating gently used clothing.",
+      "description": "Donate your unwanted garments to charity and you can let your clothes be loved all over again. You might not be getting much use out of that jumper or suit, but someone else definitely will – and they could be buying it instead of something brand new, too.",
       "price": 0.99
     },
     {
@@ -66,7 +66,7 @@
       "category_bg": "#79C23F33",
       "card_bg": "#EBF6E2",
       "text_button_bg": "#79C23F",
-      "description": "Support education by donating gently used clothing.",
+      "description": "Donate your unwanted garments to charity and you can let your clothes be loved all over again. You might not be getting much use out of that jumper or suit, but someone else definitely will – and they could be buying it instead of something brand new, too.",
       "price": 1.99
     },
     {
@@ -88,7 +88,7 @@
       "category_bg": "#0052FF33",
       "card_bg": "#0052FF26",
       "text_button_bg": "#0052FF",
-      "description": "Safe and clean drinking water for children in need.",
+      "description": "Heavy drinking can damage the liver and heart, harm an unborn child, increase the chances of developing breast and some other cancers, contribute to depression and violence, and interfere with relationships.",
       "price": 17.99
     },
     {
@@ -100,7 +100,7 @@
       "category_bg": "#F0B7B9",
       "card_bg": "#FFE3E4",
       "text_button_bg": "#FF444A",
-      "description": "Support education by donating gently used clothing.",
+      "description": "Give kids the chance to succeed. A good education is a child's best chance to escape poverty. When you fund a monthly Education Pass, you ensure that kids",
       "price": 2.99
     },
     {
@@ -122,7 +122,7 @@
       "category_bg": "#0052FF33",
       "card_bg": "#0052FF26",
       "text_button_bg": "#0052FF",
-      "description": "Safe and clean drinking water for children in need.",
+      "description": "Heavy drinking can damage the liver and heart, harm an unborn child, increase the chances of developing breast and some other cancers, contribute to depression and violence, and interfere with relationships.",
       "price": 16.99
     },
     {
@@ -133,7 +133,7 @@
      "category_bg": "#79C23F33",
      "card_bg": "#EBF6E2",
      "text_button_bg": "#79C23F",
-     "description": "Support education by donating gently used clothing.",
+     "description": "Donate your unwanted garments to charity and you can let your clothes be loved all over again. You might not be getting much use out of that jumper or suit, but someone else definitely will – and they could be buying it instead of something brand new, too.",
      "price": 0.99
    }
   ]
