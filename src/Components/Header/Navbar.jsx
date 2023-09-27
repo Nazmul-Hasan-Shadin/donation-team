@@ -38,12 +38,12 @@ const Navbar = () => {
 
   return (
     <div className="navbar bg-base-100">
-      <div className="navbar-start">
+      <div className="navbar-start  ">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <label tabIndex={0} className="btn btn-ghost  lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5  "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -66,10 +66,17 @@ const Navbar = () => {
              
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case  text-xl">
-          <img className="w-40 md:w-auto ml-36 md:ml-[400px] lg:ml-0  " src={logo} alt="" />
+  
+
+    <a className="btn btn-ghost normal-case  text-xl">
+     
+     <div className="flex justify-end">
+     <img className="w-40  md:w-auto ml-24  md:ml-[400px] lg:ml-0  " src={logo} alt="" /> 
+     </div>
+      
 
         </a>
+   
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
