@@ -14,6 +14,7 @@ const Donation = () => {
 
     
     useEffect(()=>{
+      // this is local storage data
         const storedDonationId= getStoredCard();
       
          if (data.length) {
@@ -34,6 +35,10 @@ const Donation = () => {
     
 
           
+         }
+
+         else{
+ 
          }
 
 

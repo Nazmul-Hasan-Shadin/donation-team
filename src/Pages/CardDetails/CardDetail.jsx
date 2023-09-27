@@ -22,11 +22,11 @@ const CardDetail = ({donateCard}) => {
                 <div className="card w-full max-h-[100vh] md:max-h-[35vh] bg-base-100 ">
         <div className='object-cover  '>
             
-            <img className=' w-full md:h-[445px] object-cover ' src={picture} alt="Shoes" />
+            <img className=' w-full md:h-[450px] object-cover ' src={picture} alt="Shoes" />
              
            
             </div>
-            <button   style={{backgroundColor:text_button_bg, zIndex:7 }} onClick={()=>handleDonate(id)}  className='btn btn-sm md:btn-md w-36  z-10 -translate-y-[40px]  text-white  md:bottom-43 ml-5 bg-[#FF444A] '>Donate $ {price } </button>
+            <button   style={{backgroundColor:text_button_bg, zIndex:7 }} onClick={()=>handleDonate(id)}  className='btn lg:relative md:bottom-14 btn-sm md:btn-md w-36  z-10   -translate-y-[40px] md:translate-y-0 text-white  md:bottom-43  ml-5 bg-[#FF444A] '>Donate $ {price } </button>
             
             <div style={{zIndex: 0}} className='bg-black  md:h-[140px] opacity-20 p-5 md:py-8 relative bottom-20 md:bottom-28 '>
           

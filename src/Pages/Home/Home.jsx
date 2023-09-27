@@ -17,6 +17,7 @@ const Home = () => {
        
      },[cards])
     const formCardFilter = (search)=> {
+        
         if (search.length === 0) {
             setFilterDonate(cards);
             return;
@@ -45,7 +46,13 @@ const Home = () => {
         }
         else{
              
-       setFilterDonate('')
+       setFilterDonate('');
+       Swal.fire({
+        icon: 'error',
+        title: 'items not found ',
+        text: 'Wrong Keyword! make 1st letter only Capital',
+        footer: '<a href="">Make 1st letter capital</a>'
+      })
 
         }
 
